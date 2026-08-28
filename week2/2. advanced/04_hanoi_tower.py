@@ -102,3 +102,14 @@ if __name__ == "__main__":
     print("[테스트 5] N=100 (큰 수 확인, 이동 순서는 미생성)")
     print(f"  최소 이동 횟수: {hanoi_count(100)}")
     print(f"  이동 순서 개수: {len(hanoi_moves(100))}")
+
+
+def hanoi_move(k, src, dst, via):
+    answer = ()
+    if k==1:
+        answer.append([src,via])
+        return
+    hanoi_move(k-1, src,m,dst)
+    answer.append([src,via])
+    hanoi_move(k-1,dst,src,via)
+    pass
