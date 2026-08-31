@@ -147,8 +147,8 @@ def combinations(n: int, k: int) -> list:
         if len(current_combination) == k:
             result.append(list(current_combination))
             return
-        
 
+  
         # ──────────────────────────────────────────────────────────────────
         # [Level 2] 가지치기 반복문
         # ──────────────────────────────────────────────────────────────────
