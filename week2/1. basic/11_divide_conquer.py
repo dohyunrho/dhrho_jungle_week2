@@ -57,7 +57,7 @@ def find_max_divide_conquer(arr, left, right):
     if left_max > right_max:
         return left_max
     else:
-        return right_max
+        return right_max    
     pass
 
 # 테스트 케이스

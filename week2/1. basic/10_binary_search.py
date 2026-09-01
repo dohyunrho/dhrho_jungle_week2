@@ -52,7 +52,7 @@ def binary_search(arr, target):
             right = mid - 1
         if left > right:
             break
-            return -1
+    
     pass
     
     return -1
