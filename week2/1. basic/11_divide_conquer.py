@@ -37,11 +37,12 @@ def find_max_divide_conquer(arr, left, right):
     """
     # TODO: base case - 원소가 하나면 그 값 반환
     if left == right:
+        
         return arr[left]
     pass
     
     # TODO: 중간 지점 계산
-    mid = (left + right) // 2
+    mid = (left + right) // 2 
     pass
     
     # TODO: 왼쪽 절반의 최댓값
