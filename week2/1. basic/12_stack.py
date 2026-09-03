@@ -49,7 +49,6 @@ def is_valid_parentheses(s):
         elif i == ")":
             if not stack:
                 return False
-
             stack.pop()
     pass
     
